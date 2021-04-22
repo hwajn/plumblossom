@@ -5,10 +5,11 @@
 <body>
 
 
+   
+  
+    <div class="mobileframe">
+</div>
 
-
-
-    <div class="mobileframe"></div>
     <a href="google.ca" style="position:fixed;top:0;left:50px;color:transparent;">1</a>
     <a href="google.ca" style="position:fixed;top:0;right:50px;">2</a>
     <a href="google.ca" style="position:fixed;bottom:30px;right:50px;">3</a>
@@ -23,19 +24,26 @@
     </div>
 
         <img  class="image" id="imgsequence" src="plum blossom/">
-
+        <img src="blur.png" style="transform:scale(1);position:fixed;top:-130px;">
     </div>
     
 
-    <img src="blur.png" style="transform:scale(1);position:fixed;top:-130px;">
+
     
   
     <div class="pageExtender"></div>
 
     <div class="dllink">
 
+        
     </div>
     <script>
+
+
+
+        //https://stackoverflow.com/questions/54132150/preloading-images-in-javascript-need-an-alert-when-completed
+        //this makes images preload all in parallel
+
     var imagefiles = [
     "plum blossom/"];
     

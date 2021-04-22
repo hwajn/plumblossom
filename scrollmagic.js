@@ -21,8 +21,6 @@
 //scrollmagic debug indicators https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js
 
 //https://stackoverflow.com/questions/3646036/preloading-images-with-javascript preloading images??
-
-
 var images = [];
 function preload() {
     for (var i = 0; i < arguments.length; i++) {
