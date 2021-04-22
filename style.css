@@ -5,7 +5,7 @@ body{
 	font-family: playfair;
 
 	font-size:30pt;
-	color:white;
+	color:#551A8B;
 	margin: 0;
 	background-color: black;
 	background-image: "homepage.jpg";
@@ -23,6 +23,9 @@ a{text-decoration:none;display: inline-block;
 	z-index: 1;     
 	padding: 2em;     
 	margin: -2em;}
+	a:hover {
+		color: white;
+	  }
 
 ::-webkit-scrollbar {
     width: 0px;
