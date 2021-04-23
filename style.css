@@ -20,7 +20,7 @@ body{
 
 a{text-decoration:none;display: inline-block;     
 	position: relative;   
-	color:551A8B; 
+	color:#551A8B; 
 	z-index: 1;     
 	padding: 2em;     
 	margin: -2em;}
