@@ -8,7 +8,7 @@ body{
 	color:#551A8B;
 	margin: 0;
 	background-color: black;
-	background-image: "homepage.jpg";
+	
 	background-position:center;
 	background-repeat:repeat;
 	
@@ -19,7 +19,8 @@ body{
 
 
 a{text-decoration:none;display: inline-block;     
-	position: relative;    
+	position: relative;   
+	color:551A8B; 
 	z-index: 1;     
 	padding: 2em;     
 	margin: -2em;}
@@ -89,10 +90,9 @@ a{text-decoration:none;display: inline-block;
 	height: 120%;
 	display: block;
   margin: auto;
-  background-blend-mode: difference;
-  mix-blend-mode:difference;
   z-index:10;
-  transform:translateY(-8px);
+  transform:translateX(50px);
+  
   }
 
 
